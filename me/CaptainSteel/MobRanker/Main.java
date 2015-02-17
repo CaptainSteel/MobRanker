@@ -133,7 +133,7 @@ public class Main extends JavaPlugin implements Listener
 			config.set("Players." + player.getUniqueId() + ".kills", 0);
 			saveConfig();
 			this.reloadConfig();
-			player.sendMessage(ChatColor.GOLD + "We have loaded you :)");
+			player.sendMessage(ChatColor.GOLD + "We have loaded you :");
 		}else
 		{
 			int current = config.getInt("Players." + player.getUniqueId() + ".kills");
